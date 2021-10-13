@@ -1,23 +1,23 @@
 fun main (){
-    println("It's january 1st 2022, the Zombie apocalypse has just begun. Will you be able to survive?")
+    println("The football project")
     challengeOne()
 }
 
 fun challengeOne() {
-    println("How many times per week did you work out on average in 2021?")
+    println("How much on a scale to 10 do you love football")
     var numberOfWorkouts = readLine()?.toInt()
-    val notEnoughWorkouts = setOf(0,1)
+    val notEnoughWorkouts = setOf(0,1,2,3,4,5)
     if (notEnoughWorkouts.contains(numberOfWorkouts)){
-        println("sorry, you're dead")
+        println("How is this possible?! Game over!")
     } else  {
-        println("congrats you might survive")
+        println("Yes! Next level reached")
         challengeTwo()
     }
 }
 
 fun challengeTwo(){
-    println("You're stuck at work with a colleague when the apocalypse begins, will you stick together or will you go your separate ways ")
-    println("You aren't sure and roll the dice on it. Choose low or high. if your guess matches the dice you'll stick together")
+    println("So you love football? ")
+    println("Lets roll the dice on who is winning Real Madrid or Anderlecht? Choose low or high")
     var Challenge2Guess = readLine()
     rollDice(Challenge2Guess)
 }
@@ -40,10 +40,10 @@ fun rollDice(Challenge2Guess:String?){
             dice == "high" } }
 
     if (dice == Challenge2Guess ){
-        println("you chose to stick together")
-        println("congrats you might survive")
+        println("Anderlecht wins!")
+        println("That insane!")
     } else {
-        println("you chose to go your separate ways")
-        println("sorry, you're dead")
+        println("Real Madrid wins!")
+        println("This was expected...")
     }
 }
