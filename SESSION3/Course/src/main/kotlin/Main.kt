@@ -7,8 +7,7 @@ fun main() {
         "Maaike Bueten",
         1,
         "Design",
-        true,
+        true
 
     )
-    design1.name
 }
