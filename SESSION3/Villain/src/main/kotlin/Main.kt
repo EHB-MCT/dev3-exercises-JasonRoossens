@@ -7,5 +7,4 @@ class Main {
     dries.talk()
     jens.talk()
     matthias.talk()
-
 }
