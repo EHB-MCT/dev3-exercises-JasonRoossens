@@ -3,4 +3,5 @@ fun main() {
 
     val person = persons.random()
     person.introduce()
+    person.talk()
 }
