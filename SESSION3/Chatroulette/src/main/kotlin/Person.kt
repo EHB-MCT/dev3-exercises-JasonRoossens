@@ -1,6 +1,6 @@
 
-open abstract class Person(open val name: String) {
-    open fun eat() {
-
+open class Person(open val name: String) {
+    fun introduce() {
+println("hi, Im $name")
     }
 }

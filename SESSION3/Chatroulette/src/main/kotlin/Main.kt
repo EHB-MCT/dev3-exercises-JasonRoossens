@@ -1,7 +1,6 @@
 fun main() {
-    val persons = arrayOf("Jason", "Mark")
-    val jason = Jason("Jason")
-    val mark = Mark("Mark")
+    val persons = arrayOf(Student("Sam"), Teacher("Jason"), Comedian("Mark"))
 
-    mark.introduce()
+    val person = persons.random()
+    person.introduce()
 }
