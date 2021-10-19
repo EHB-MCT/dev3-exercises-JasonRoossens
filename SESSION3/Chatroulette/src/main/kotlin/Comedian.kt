@@ -3,7 +3,7 @@ class Comedian(override val name: String): Person(name) {
         funFact()
     }
     fun funFact(){
-        println("did you know Kotlin was name  after an island")
+        println("haha funny joke")
     }
 
 }
